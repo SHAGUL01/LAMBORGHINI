@@ -1,0 +1,135 @@
+
+.section_top
+{
+width:100%;
+height:100%;
+overflow:hidden;
+position:relative;
+background-image:url("F:/LAMBORGHINI/PHOTOS/aven_gate_hero_01.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+text-align:center;
+animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change
+{
+0%{background-image:url("F:/LAMBORGHINI/PHOTOS/1125174.jpg");}
+20%{background-image:url("F:/LAMBORGHINI/PHOTOS/aven_gate_hero_01.jpg");}
+40%{background-image:url("F:/LAMBORGHINI/PHOTOS/covedr_d.jpg");}
+60%{background-image:url("F:/LAMBORGHINI/PHOTOS/lamborghini_aventador_svj_roadster_03.jpg");}
+80%{background-image:url("F:/LAMBORGHINI/PHOTOS/wp2814480.jpg");}
+100%{background-image:url("F:/LAMBORGHINI/PHOTOS/20221115021012_Huracan Steratto.jpg");}
+}
+
+.content
+{
+font-family:Playfair Display;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-transform:uppercase;
+}
+
+.content h1
+{
+color:#fff;
+font-size:70px;
+letter-spacing:15px;
+}
+
+.content h1 span
+{
+color:#fff;
+}
+
+
+
+
+#as
+{
+margin-top:20px;
+}
+
+#qw
+{
+	text-align:justify;
+	margin-top:20px;
+	font-size:18;
+	font-family:Playfair Display;
+	
+}
+
+#df
+{
+	margin-top:20px;
+}
+
+#fg
+{
+	margin-top:10px;
+	
+}
+
+#li
+{
+	font-size:50;
+	text-align:center;
+	font-family:Playfair Display;
+}
+
+#cvb
+{
+    font-size:30;
+	text-align:center;
+	font-family:Playfair Display;
+}	
+}
+
+
+#fotb
+{
+	border-bottom:2px solid white;
+	padding-bottom:30px;
+	width:50%;
+	font-family:Playfair Displa;
+	letter-spacing:1.3;
+	font-size:35;
+}
+
+.footerforall
+{
+	background-color:black;
+	padding-bottom:50px;
+	padding:60px;
+	margin-top:50px;
+	color:#969993;
+} 
+#fott
+{
+	font-size:15px;
+	padding-left:30px;	
+}
+#foott2
+{
+	margin-top:30px;
+	padding-left:30px;
+}
+#Add1{
+	border-left:2px solid white;
+	padding-left:20px;
+}
+#sub1{
+	border-left:2px solid white;
+	padding-left:20px;
+}
+#mul1{
+	border-left:2px solid white;
+	padding-left:20px;
+}
+#mul1 a
+{
+	margin-top:10px;
+}

@@ -1,0 +1,110 @@
+<html>
+<head>
+
+<link rel="icon" href="F:\LAMBORGHINI\PHOTOS\logo.png" type="image/x-icon">
+	    <title>LAMBORGHINI</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<link rel="stylesheet"  href="sign up.css">
+			
+			<style>
+			
+			</style>
+</head>
+<body>
+	    <nav class="navbar navbar-inverse navbar-fixed-top">
+		     
+		     <div class="container-fluid">
+			 <div class="navbar-header">
+			 
+			  
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar" >
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+		</button>
+		
+		
+		        <a class="navbar-brand active" href="HOME.html">LOMBORGHINI</a>
+				
+			</div>
+			<div class="collapse navbar-collapse" id="mynavbar">
+	            <ul class="nav navbar-nav">
+				  <li ><a href="HOME.html">HOME</a></li>
+				  <li ><a href="LAMBORGHINI MODELS.html">MODELS</a></li>
+				      <li ><a href="LAMBORGHINI.html">BEYOND</a></li>
+				
+				 <li><a href="F:\LAMBORGHINI\squdra corse-motorsports.html">MOTORSPORTS</a></li>
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="contact us.html">contact as</a></li>
+				<li class="active"><a href="F:\LAMBORGHINI\sign up.html">sign up</a></li>
+				   <li><a href="https://www.facebook.com/Lamborghini/"><img src="PHOTOS\124010.png" height="20px" width="20px"> </a></li>
+				     <li><a href="https://twitter.com/Lamborghini"><img src="PHOTOS\124021.png" height="20px" width="20px"> </a></li>
+				      <li><a href="https://www.instagram.com/lamborghini/?hl=en"><img src="PHOTOS\sdfg.webp" height="23px" width="23px"> </a></li>
+				
+				
+				
+			</ul>
+			</div>
+			</div>
+			</nav>
+
+
+ <script>
+	 function verification()
+	 {
+	     var email=document.aa.email.value;
+        
+         if(email.match(/^([a-zA-Z0-9]+)@([a-zA-Z]+)([\.]+)([a-z]{2,5})$/))
+             {
+			     return true;
+             }
+         else
+             {
+			     alert("missmach");
+			     return false;   
+			 }		 
+	 }
+	 
+	 
+	 </script>
+     <div class=" box">
+	    <span class="boderLine"></span>
+	     <form name="aa" action="" onsubmit="return verification()">
+		     <h2>sign in</h2>
+			 <div class="inputBox">
+				 <input type="text"  required="required">
+				 <span>username</span>
+				 <i></i>
+			 </div>
+			 
+			 <div class="inputBox">
+				 <input type="text" name="email" required="required">
+				 <span>email</span>
+				 <i></i>
+			 </div>
+			 <div class="inputBox">
+				 <input type="password" name="password"  required="required">
+				 <span>password</span>
+				 <i></i>
+			 </div>
+			 <div class="inputBox">
+				 <input type="password" name="confirm password"  required="required">
+				 <span>confirmpassword</span>
+				 <i></i>
+			 </div>
+	        <input type="submit" value="login">
+			<input type="reset" value="reset">
+			
+         </form>	 	 
+	 </div>
+	
+
+
+</body>
+</html>
